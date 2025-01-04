@@ -24,7 +24,7 @@ body {
 }
 
 /* Ears */
-.ears {
+.ear {
   position: absolute;
   width: 10px;
   height: 50px;
@@ -48,10 +48,11 @@ body {
 /* Light */
 .light {
   position: absolute;
-  top: -15px;
+  top: -50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform: rotate(180deg)
 }
 
 .bulb {
